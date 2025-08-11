@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="A simple HTML5 Hello World page with semantic structure and accessibility." />
+  <meta name="keywords" content="HTML5, Hello World, Semantic HTML, Accessibility" />
+  <meta name="author" content="Rivaldo" />
+  <title>Week 2 enhanced HTML</title>
+</head>
+<body>
+  <h1>Ordered List</h1>
+  <p>This is a simple ordered list page.</p>
+  <ol>
+    <li>Monday</li>
+    <li>Tuesday</li>
+    <li>Wednesday</li>
+  </ol>
+  <h2>Definition List</h2>
+  <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+    <dt>JavaScript</dt>
+    <dd>A programming language for the web</dd>
+  </dl>
+  <h2>Nested List</h2>
+  <ol>
+    <li>Frontend Languages</li>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    <li>Backend Languages</li>
+      <ul>
+        <li>Node.js</li>
+        <li>Python</li>
+        <li>Ruby</li>
+      </ul>
+  </ol>
+<h2>Images</h2>
+<img src="https://www.pexels.com/photo/vibrant-italian-building-facade-with-shuttered-windows-33344545/" alt="colorful Italian building facade with shuttered windows" />
+<h2>Table</h2>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>John</td>
+      <td>Male</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Jane</td>
+      <td>Female</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Jack</td>
+      <td>Male</td>
+      <td>28</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Embedding videos and audio</h2>
+<video width="320" height="240" controls>
+  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<audio>
+  <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+  <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<h2>Form</h2>
+<form action="/submit" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required />
+  <br />
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required />
+  <br />
+  <label for="Age">Age:</label>
+  <input type="number" id="age" name="age" min="18" max="130" required />
+  <br />
+  <label for="DOB">Date of Birth:</label>
+  <input type="date" id="dob" name="dob" required />  
+  <input type="submit" value="Submit" />
+</form>
+</body>
+</html>
